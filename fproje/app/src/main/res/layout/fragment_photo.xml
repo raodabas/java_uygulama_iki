@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".ui.photo.PhotoFragment">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ADD PHOTO"
+        android:textSize="25dp"
+        android:layout_marginTop="20dp"/>
+
+    <ImageView
+        android:layout_width="350dp"
+        android:layout_height="200dp"
+        android:id="@+id/imageView"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:id="@+id/btn1"
+        android:text="GALLERY"
+        android:textSize="16sp"
+        android:layout_marginTop="20dp"/>
+    <ListView
+        android:layout_width="350dp"
+        android:layout_height="200dp"
+        android:id="@+id/plistView"
+        android:padding="8dp"
+        android:dividerHeight="1dp"
+        android:layout_marginTop="20dp"/>
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:id="@+id/btn2"
+        android:text="ADD"
+        android:textSize="16sp"
+        android:layout_marginTop="20dp"/>
+
+</LinearLayout>

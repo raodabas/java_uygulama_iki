@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".ui.label.LabelFragment">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ADD LABEL"
+        android:textSize="25dp"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Label"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="-142dp"/>
+
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:id="@+id/label"
+        android:padding="15dp"
+        android:hint="label"
+        android:textColor="@color/black"
+        android:layout_marginTop="8dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Description"
+        android:textSize="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="-115dp"/>
+
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:id="@+id/description"
+        android:hint="description"
+        android:padding="15dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="8dp"/>
+
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:id="@+id/btn1"
+        android:text="ADD"
+        android:textSize="16sp"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Labels"
+        android:textSize="20dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="-142dp"/>
+
+    <ListView
+        android:layout_width="350dp"
+        android:layout_height="200dp"
+        android:id="@+id/listView"
+        android:padding="8dp"
+        android:dividerHeight="1dp"/>
+
+</LinearLayout>
